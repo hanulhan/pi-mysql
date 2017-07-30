@@ -1,0 +1,6 @@
+cc  -std=c99 -pedantic -O2 -g -W -Wall `libesmtp-config --cflags` -c -I ./inc -o obj/main.o  src/main.c
+src/main.c:13:23: fatal error: mail-file.h: Datei oder Verzeichnis nicht gefunden
+ #include "mail-file.h"
+                       ^
+compilation terminated.
+make: *** [main.o] Fehler 1

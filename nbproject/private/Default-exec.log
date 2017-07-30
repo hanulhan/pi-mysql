@@ -1,0 +1,18 @@
+called: /usr/bin/cc
+	/media/Data/Projekte/Rpi/pi-mysql
+	cc
+	-std=c99
+	-pedantic
+	-O2
+	-g
+	-W
+	-Wall
+	-I/usr/include
+	-pthread
+	-c
+	-I
+	./inc
+	-o
+	obj/main.o
+	src/main.c
+
