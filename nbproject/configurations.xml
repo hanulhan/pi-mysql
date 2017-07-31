@@ -4,6 +4,7 @@
     <df root="." name="0">
       <df name="src">
         <in>main.c</in>
+        <in>testMysqlApi.cpp</in>
       </df>
     </df>
     <logicalFolder name="ExternalFiles"
@@ -22,7 +23,7 @@
   <confs>
     <conf name="Default" type="0">
       <toolsSet>
-        <compilerSet>default</compilerSet>
+        <compilerSet>GNU|GNU</compilerSet>
         <dependencyChecking>false</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
@@ -44,6 +45,13 @@
               <pElem>.</pElem>
             </incDir>
           </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>inc</pElem>
+              <pElem>/usr/include/mysql</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
@@ -53,6 +61,8 @@
       <item path="src/main.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
+      </item>
+      <item path="src/testMysqlApi.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

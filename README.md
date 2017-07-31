@@ -59,3 +59,11 @@ MYSQL_TYPE_BLOB
 MYSQL_TYPE_NULL
 	C Variable: 
 	SQL Type: NULL
+
+
+good makefile stuff:
+https://stackoverflow.com/questions/2481269/how-to-make-a-simple-c-makefile
+
+
+Try this
+https://tangentsoft.com/mysqlpp/home

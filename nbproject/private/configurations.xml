@@ -5,9 +5,12 @@
       <df name="inc">
         <in>pi-mysql.h</in>
       </df>
+      <df name="obj">
+      </df>
       <df name="src">
         <in>main.c</in>
         <in>pi-mysql.c</in>
+        <in>testMysqlApi.cpp</in>
       </df>
     </df>
   </logicalFolder>
